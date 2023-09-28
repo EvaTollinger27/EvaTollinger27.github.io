@@ -1,0 +1,259 @@
+.a{
+  background:white;
+  padding:10px;
+  border-radius:50px;
+  box-shadow: 1px 1px 10px grey;
+  margin-right:5px;
+}
+
+.a:hover, .b:hover{
+  box-shadow: 1px 1px 10px black;
+  font-weight:bold;
+}
+
+.abril{
+  font-family: 'Abril Fatface';
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+
+.abril1{
+  font-family: 'Abril Fatface';
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.all{
+  position:relative;
+}
+
+.b{
+  background:white;
+  padding:10px;
+  box-shadow: 1px 1px 10px grey;
+  margin-left:5px;
+  border-radius:100px;
+  height:20px;
+  width:20px;
+  align-items:center;
+  justify-content:center;
+}
+
+.b:hover{
+    animation-name: circle;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.bb{
+  display:flex;
+}
+
+.bigfont{
+  text-transform:uppercase;
+  font-weight:bold;
+}
+
+blockquote{
+  background-color: #555;  
+  border-width: 3px; 
+  border-style: solid;
+  padding:40px;
+  color:white;
+  font-family: 'Abril Fatface', cursive;
+  font-size:40px;
+  margin-left:-30px;
+  margin-right:-30px;
+  position:relative;
+}
+
+blockquote::before {
+  content: '“';
+  /* then the styling */
+  position:absolute;
+  left:0;
+  top:-20px;
+  font-size:80px;
+}
+
+.bold{
+  font-weight:bold;
+  font-size:20px;
+}
+
+.boldint{
+  font-weight:bold;
+}
+
+.block{
+  margin-top: 150px;
+}
+
+.change{
+  display: flex;
+}
+
+.change2{
+  display: flex;
+  margin-top: 50px;
+}
+
+.change3{
+  display: flex;
+  margin-top: 50px;
+}
+
+.change4{
+  display: flex;
+  margin-top: 50px;
+}
+
+.circle{
+    display:flex;
+}
+
+.containerimage{
+  width: 50%;
+  flex-grow: 1;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-position: -900px -1700px;
+  height: 700px;
+  display: flex;
+}
+
+.container{
+  width: 50%;
+  margin-top:30px;
+  flex-grow: 1;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.direct{
+  position: absolute;
+  left: 130px;
+  top: 580px;
+  
+}
+
+.foot{
+  display:flex;
+  padding:5px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.fourth{
+  flex-grow: 1;
+  width: 50%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+.headerlist{
+  background: #202220;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.headerlist div{
+  margin: 0 20px;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold; 
+}
+
+img{
+  display: flex;
+  width: 50%;
+  height: 700px;
+}
+
+.item{
+  flex-grow: 1;
+  width: 50%;
+}
+
+.item2{
+  flex-grow: 1;
+  width: 50%;
+}
+
+.item4{
+  flex-grow: 1;
+  width: 50%;
+}
+
+
+.italic{
+ font-family: 'Sansita Swashed', 
+   cursive;
+  font-size:15px;
+  font-weight:italic;
+}
+
+
+.justbold{
+  font-weight:bold;
+}
+
+@keyframes circle{
+    from {width: 30px}
+    to {width: 90px}
+}
+
+.linkblack{
+  border-top: 1px solid black;
+  padding-top:20px;
+}
+
+.made{
+  position:fixed;
+  width:100%;
+  bottom: 0px;
+  left:0px;
+  z-index:100;
+  display:flex;
+  justify-content:space-between;
+}
+
+p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:24px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.second{
+  flex-grow: 1;
+  width: 50%;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+}
+
+.smallfont{
+  font-size:16px;
+}
+
+.third{
+  flex-grow: 1;
+  width: 50%;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+}
+
+ul{
+  list-style-type: square;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:24px;
+}
+
+.ulsmallerfont{
+  font-size:16px;
+}
